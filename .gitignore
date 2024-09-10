@@ -1,0 +1,14 @@
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+*.userprefs
+
+mono_crash.*
+
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/

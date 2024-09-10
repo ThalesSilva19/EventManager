@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{74560AE9-3233-46BE-AF0A-99EEF72741B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.API", "src\EventManager.API\EventManager.API.csproj", "{71EE8156-2847-48F8-B002-CF17653A5235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.Application", "src\EventManager.Application\EventManager.Application.csproj", "{6A5CD2CA-8C82-430C-B3DE-F30F7F3073E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.Infrastructure", "src\EventManager.Infrastructure\EventManager.Infrastructure.csproj", "{F6CF658F-3291-4222-9007-983171F23F3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.Domain", "src\EventManager.Domain\EventManager.Domain.csproj", "{E90AFA78-480C-46C4-B533-D47684FA39B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.Exceptions", "src\EventManager.Exceptions\EventManager.Exceptions.csproj", "{55EAF2D0-6252-49CC-9C96-112E40E02B9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.Communication", "src\EventManager.Communication\EventManager.Communication.csproj", "{B9F407C0-6681-4E2A-9E27-4666AF0CA20A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C7C2FE9C-4B30-4490-8B90-7365384AAF4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71EE8156-2847-48F8-B002-CF17653A5235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EE8156-2847-48F8-B002-CF17653A5235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EE8156-2847-48F8-B002-CF17653A5235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EE8156-2847-48F8-B002-CF17653A5235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5CD2CA-8C82-430C-B3DE-F30F7F3073E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5CD2CA-8C82-430C-B3DE-F30F7F3073E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5CD2CA-8C82-430C-B3DE-F30F7F3073E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5CD2CA-8C82-430C-B3DE-F30F7F3073E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6CF658F-3291-4222-9007-983171F23F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CF658F-3291-4222-9007-983171F23F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CF658F-3291-4222-9007-983171F23F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CF658F-3291-4222-9007-983171F23F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90AFA78-480C-46C4-B533-D47684FA39B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90AFA78-480C-46C4-B533-D47684FA39B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90AFA78-480C-46C4-B533-D47684FA39B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90AFA78-480C-46C4-B533-D47684FA39B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55EAF2D0-6252-49CC-9C96-112E40E02B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EAF2D0-6252-49CC-9C96-112E40E02B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EAF2D0-6252-49CC-9C96-112E40E02B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EAF2D0-6252-49CC-9C96-112E40E02B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F407C0-6681-4E2A-9E27-4666AF0CA20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F407C0-6681-4E2A-9E27-4666AF0CA20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F407C0-6681-4E2A-9E27-4666AF0CA20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F407C0-6681-4E2A-9E27-4666AF0CA20A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71EE8156-2847-48F8-B002-CF17653A5235} = {74560AE9-3233-46BE-AF0A-99EEF72741B7}
+		{6A5CD2CA-8C82-430C-B3DE-F30F7F3073E9} = {74560AE9-3233-46BE-AF0A-99EEF72741B7}
+		{F6CF658F-3291-4222-9007-983171F23F3E} = {74560AE9-3233-46BE-AF0A-99EEF72741B7}
+		{E90AFA78-480C-46C4-B533-D47684FA39B9} = {74560AE9-3233-46BE-AF0A-99EEF72741B7}
+		{55EAF2D0-6252-49CC-9C96-112E40E02B9F} = {74560AE9-3233-46BE-AF0A-99EEF72741B7}
+		{B9F407C0-6681-4E2A-9E27-4666AF0CA20A} = {74560AE9-3233-46BE-AF0A-99EEF72741B7}
+	EndGlobalSection
+EndGlobal
